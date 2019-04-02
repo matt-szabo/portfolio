@@ -21,8 +21,7 @@ export default class Single extends Component {
         const bucket = api.bucket({
           slug: '2455d100-53e9-11e9-85e5-6914decad3f2',
           read_key: 'VjQgWGD4S9xnNLjyRTubU6Oapgpqz5GcK6PGu2GM0Tn9Tl2LQo'
-        //  slug: '2455d100-53e9-11e9-85e5-6914decad3f2',
-        //  read_key: 'gY42AgowXA4AGPDHWDkEyafcJt4qupJb0lxpVK9hpiZT7kHfy5'
+      
         })
         const data = await bucket.getObject({
         slug: `${link}`
