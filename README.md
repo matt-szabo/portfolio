@@ -1,6 +1,4 @@
-# React Portfolio Website
 
-![Full](https://github.com/3ndrius/portfolio/blob/master/public/4.jpg?raw=true)
 
 # Proudly powered by [Cosmic JS](https://cosmicjs.com/)
 Cosmic JS
@@ -151,4 +149,3 @@ npm run build
 
 
 
-# portfolio
