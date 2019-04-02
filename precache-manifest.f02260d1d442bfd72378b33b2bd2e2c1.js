@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/portfolio/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/portfolio/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/portfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/portfolio/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "b25a7c422e2de85d5e57aeee5590ac17",
+    "revision": "59d23698e2c4bc61a3fe2c1264025fa3",
     "url": "/portfolio/index.html"
   }
 ];
