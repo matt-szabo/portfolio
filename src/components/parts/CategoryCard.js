@@ -6,11 +6,11 @@ const CategoryCard = styled.div `
   padding:3em 0;
   grid-template-columns: minmax(320px, 640px);
   img{
-    width:100%;
+    width:90%;
+    margin:auto;
     height:auto;
     object-fit: cover;
     border-radius: 2em;
-    border: 3px solid black;
 
   }
 
@@ -18,10 +18,10 @@ const CategoryCard = styled.div `
     grid-template-columns:${(props) => props.index % 2 === 0 ? '390px 250px' : '250px 390px'};
   font-size:0.6em;
   grid-template-rows:300px;
+
+
   img{
-  
     height:300px;
-    width:100%;
     background:yellow;
     box-shadow: 6px 6px 12px 0 rgba(0, 0, 0, .15);
     order:${(props) => props.index % 2 === 0 ? '1' : '2'};    
@@ -31,6 +31,10 @@ const CategoryCard = styled.div `
   grid-template-columns:${(props) => props.index % 2 === 0 ? '550px 350px' : '350px 550px'};
   font-size:0.8em;
   grid-template-rows:400px;
+  grid-column-gap: 2em;
+  padding:2em 0;
+
+
   img{
   
     height:400px;
@@ -46,11 +50,16 @@ const CategoryCard = styled.div `
   grid-template-columns:${(props) => props.index % 2 === 0 ? '850px 450px' : '450px 850px'};
    grid-template-rows:600px;
    grid-column-gap: 2em;
+   padding:3em;
+
+
 
   width:100%;
   
    img{
      height:600px; 
+     width:100%;
+
      
    }
  }

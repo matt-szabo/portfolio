@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import H2 from '../headers/H2';
 import React from 'react'
-import Nav from './Nav';
+
+// import Nav from './Nav';
 
 
 
@@ -53,7 +54,7 @@ export default function Wrap(props) {
   return (
    <Wraps hg={props.hg}>
     <span>
-      <a href="/"><H2>Matt Szabo - React & web portfolio</H2></a>
+      <a href="/"><H2>mattszabo.net</H2></a>
       {/* <Nav  /> */}
       </span>
     <Name hg={props.hg} src="facebook_cover_photo_1.svg" alt="img"/> 

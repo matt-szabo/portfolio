@@ -19,8 +19,8 @@ export default class Single extends Component {
         const Cosmic = require('cosmicjs')
         const api = Cosmic()
         const bucket = api.bucket({
-          slug: '2455d100-53e9-11e9-85e5-6914decad3f2',
-          read_key: 'VjQgWGD4S9xnNLjyRTubU6Oapgpqz5GcK6PGu2GM0Tn9Tl2LQo'
+          slug: process.env.REACT_APP_COSMIC_BUCKET || '2455d100-53e9-11e9-85e5-6914decad3f2',
+          read_key: process.env.REACT_APP_COSMIC_READ_KEY || 'itW02GR85HKfUanvZnYZYiZwEuLE3p1vad59n66C4uTARuapaU'
       
         })
         const data = await bucket.getObject({

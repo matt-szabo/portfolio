@@ -10,7 +10,7 @@ const PageWrap = styled.div`
 ${({theme}) => theme.media.mobile} {
   width:100%;
   height:100%;
-  padding:30px 0;
+  padding:30px 10px;
   
  }
  ${({theme}) => theme.media.tablet} {
@@ -28,8 +28,8 @@ export default class Contact extends Component {
     const Cosmic = require('cosmicjs')
     const api = Cosmic()
     const bucket = api.bucket({
-      slug: '2455d100-53e9-11e9-85e5-6914decad3f2',
-      read_key: 'VjQgWGD4S9xnNLjyRTubU6Oapgpqz5GcK6PGu2GM0Tn9Tl2LQo'
+      slug: process.env.REACT_APP_COSMIC_BUCKET || 'd2455d100-53e9-11e9-85e5-6914decad3f2',
+      read_key: process.env.REACT_APP_COSMIC_READ_KEY || 'itW02GR85HKfUanvZnYZYiZwEuLE3p1vad59n66C4uTARuapaU'
     })
     const data = await bucket.getObject({
     slug: 'contact'
@@ -50,7 +50,7 @@ export default class Contact extends Component {
           <span>Created by: <a href="https://github.com/3ndrius"> 3ndrius </a>
          </span>
          <hr/>
-         {this.state.content && <Img responsive src={this.state.content.metadata.picture.url} alt="img" />}
+         {/* {this.state.content && <Img responsive src={this.state.content.metadata.picture.url} alt="img" />} */}
           </Center>
       </PageWrap>
     )
