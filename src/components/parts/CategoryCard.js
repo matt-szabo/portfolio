@@ -22,7 +22,7 @@ const CategoryCard = styled.div `
 
   img{
     height:300px;
-    background:yellow;
+    background:#D3D3D3;
     box-shadow: 6px 6px 12px 0 rgba(0, 0, 0, .15);
     order:${(props) => props.index % 2 === 0 ? '1' : '2'};    
   }
@@ -39,7 +39,7 @@ const CategoryCard = styled.div `
   
     height:400px;
     width:100%;
-    background:yellow;
+    background:#D3D3D3;
     //box-shadow: 6px 6px 12px 0 rgba(0, 0, 0, .15);
     order:${(props) => props.index % 2 === 0 ? '1' : '2'}; 
      
