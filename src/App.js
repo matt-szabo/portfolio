@@ -12,7 +12,6 @@ import PartGrid from './components/section/PartGrid';
 import Contact from './components/page/Contact';
 import Single from './components/section/Single';
 import Footer from './components/section/Footer';
-import Center from './components/parts/Center';
 
 class App extends Component {
   state = {

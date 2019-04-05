@@ -1,11 +1,9 @@
 import React from 'react'
 import CategoryCard from './../parts/CategoryCard';
 import CaptionWrap from '../parts/Caption';
-import Button from './../buttons/Button';
 import H1 from '../headers/H1';
 import ContainerCategory from './../parts/Contain';
 import Position from './../parts/PositionContainer';
-import { Link } from 'react-router-dom'
 import Par from './../parts/Paragraph';
 
 export default function Category(props) {
