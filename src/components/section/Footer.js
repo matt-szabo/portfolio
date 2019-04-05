@@ -27,9 +27,9 @@ const FootWrap = styled.div`
 
 `;
 
-var divStyle = {
-    fontSize:'0.8em'
-  };
+// var divStyle = {
+//     fontSize:'0.8em'
+//   };
 
 export default function Footer() {
   return (
@@ -47,10 +47,11 @@ export default function Footer() {
          <a href="tel:514-512-7209"><i className="fa fa-phone fa-2x" aria-hidden="true"></i></a>
          </span>
          <br></br>
-         <span style={divStyle}>Created using&nbsp; <a href="https://cosmicjs.com/"> Cosmic JS &nbsp;</a>
+         <span><a href="https://cosmicjs.com/add-bucket?import_bucket=5ca111792cfd9c356e7caa99"><img src="https://s3-us-west-2.amazonaws.com/cosmicjs/51fe54d0-4f6e-11e9-9f32-8d001da69630-powered-by-cosmicjs.svg" /></a></span>
+         {/* <span style={divStyle}>Created using&nbsp; <a href="https://cosmicjs.com/"> Cosmic JS &nbsp;</a>
          <img  width="auto" height="20px" src="/cosmic.svg" alt="cosmic_logo"/>
          <br></br>
-         </span>
+         </span> */}
       </FootWrap>
   
   )
